@@ -10,7 +10,7 @@ const UserSchema = new mongoose.Schema({
 
 UserSchema.methods.validatePassword = function (password, callback) {
 	bcrypt.compare(password, this.password, callback);
-}
+};
 
 UserSchema.methods.hashPassword = (password, callback) => {
 	bcrypt.genSalt(10, (err, salt) => {
@@ -20,7 +20,7 @@ UserSchema.methods.hashPassword = (password, callback) => {
 
 		bcrypt.hash(password, salt, callback);
 	})
-}
+};
 
 UserSchema.plugin(mongooseHidden);
 const User = mongoose.model('User', UserSchema);

@@ -137,8 +137,8 @@ app.delete('/api/user/:username', (req, res) => {
         } 
 
         return res.status(404).json({message: "User not found"})
-    })
-})
+    });
+});
 
 
 function runServer (callback) {

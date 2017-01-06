@@ -29,11 +29,6 @@ class Profile extends Component {
 	}
 }
 
-		// <Sparklines height={120} width={180} data={this.props.numberOfBreaks}>
-		// 						<SparklinesLine color={props.color} />
-		// 						<SparklinesReferenceLine type='avg' />
-		// 					</Sparklines>
-
 const mapStateToProps = (state) => {
 	return {
 		user: state.user,

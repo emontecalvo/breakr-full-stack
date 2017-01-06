@@ -97,32 +97,6 @@ export function logIn (username, password) {
 	}
 }
 
-/* IMPORTANT:
-
-export function setNotification(msg, type) {
-  return {
-    type: SET_NOTIFICATION,
-    notification: {
-      type,
-      msg
-    }
-  }
-}
-
-export function setError(msg) {
-  return setNotification(msg, 'error');
-}
-
-
-
-
-setNotification('this is my message', 'error');
-
-setError('this is my message');
-
-
- */
-
 export function createUser (username, password) {
 	return (dispatch) => {
 		const url = '/api/user';

@@ -16,4 +16,4 @@ document.addEventListener('DOMContentLoaded', () => {
 			<Provider store={store}>
 				<Router history={hashHistory} routes={routes} />
 			</Provider>, document.getElementById('app'))
-})
+});

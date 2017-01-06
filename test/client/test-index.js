@@ -19,8 +19,8 @@ describe('Chart component', () => {
 		chart.props.height.should.equal(120);
 		chart.props.width.should.equal(180);
 
-	}) 
-})
+	}); 
+});
 
 /** IN PROGRESS */
 

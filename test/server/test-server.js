@@ -1,4 +1,3 @@
-
 import 'babel-polyfill';
 import chai from 'chai';
 import chaiHttp from 'chai-http'
@@ -46,9 +45,7 @@ describe('User endpoints', function() {
 						res.body.user.username.should.equal('joe')
 						res.body.user.should.have.property('timer')
 
-					})
-
-
+				})
 			})
 		})
 	})
