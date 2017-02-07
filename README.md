@@ -2,6 +2,7 @@
 
 Interval training to increase mindful productivity while working, stressing the importance of taking regular breaks. With Breakr set a timer for each and yield extraordinary results! 
 
+![Alt text](./breakr_img.png?raw=true "Breakr")
 
 
 ## Motivation
@@ -43,6 +44,8 @@ Interval training to increase mindful productivity while working, stressing the 
 
 * To use this application, simply clone the repository.
 
+## Live site
+Please visit the live site to use if you don't want to install it locally on your computer:  https://breakr.herokuapp.com/#/timer
 
 
 ### Contributers
