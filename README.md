@@ -13,7 +13,7 @@ Interval training to increase mindful productivity while working, stressing the 
 
 
 
-## Technologies
+## Technologies (Quick Overview)
 
 * React
 * Redux
@@ -22,7 +22,15 @@ Interval training to increase mindful productivity while working, stressing the 
 * MongoDB
 * Express
 * Passport
+* Chai
 
+## Technical
+* This app was built to be responsive across multiple web-browsers and multiple sizes.
+* The front-end was built entirely with React and Redux.  CSS animations were used to achieve the visual timer countdown.
+* Passport and bcrypt were used for authentication.  The app allows for people to create a user-login, or use the app as a guest if prefered.
+* The database was built using Mongodb and Express.
+* The JavaScript code dealing with calculating the appropriate time can be found in the Timer.js component.
+* Testing was achieved by using Chai.
 
 
 ## API Reference
@@ -40,9 +48,25 @@ Interval training to increase mindful productivity while working, stressing the 
 
 
 
-## Use
+## Setup
 
-* To use this application, simply clone the repository.
+* To use this application, simply clone or download the repository.
+
+* Make sure you have Node.js installed (https://nodejs.org/en/).
+
+* Make sure you have Mongodb installed (https://www.mongodb.com).
+
+* cd into the project folder.
+
+* In the command line run: $npm install
+
+* Next, in the command line run: $npm run build
+
+* Third, launch Mongodb (usually by typing $mongod in the terminal).
+
+* Fourth, in the command line run: $npm start
+
+* Go to the localhost 8080 on your web browser and you should see Breakr running!
 
 ## Live site
 Please visit the live site to use if you don't want to install it locally on your computer:  https://breakr.herokuapp.com/#/timer
